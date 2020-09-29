@@ -1,0 +1,116 @@
+.body{
+  font-family: 'Orbitron', sans-serif;
+}
+.wrapper{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+
+.circle{
+  height:25px;
+  width:25px;
+  border-radius:50%;
+  background-color:#bbb;
+  display:block;
+}
+
+.yellow{
+  position: relative; left: -120px; top: 100px;
+  height: 120px;
+  width: 120px;
+  background-color: yellow;
+  border: 10px solid black;
+}
+.yellow:active {
+  background-color: yellow;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.blue{
+  position: relative; left: 120px; top: -40px;
+  height: 120px;
+  width: 120px;
+  background-color: blue;
+  border: 10px solid black; 
+}
+
+.blue:active {
+  background-color: blue;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.green:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.green{
+  position: relative; left: -120px; top: -400px; 
+  height: 120px;
+  width: 120px;
+  background-color: green;
+  border: 10px solid black;
+    
+}
+.red{
+  position: relative; left: 120px; top: -540px; 
+  height: 120px;
+  width: 120px;
+  background-color: red;
+  border: 10px solid black; 
+}
+.red:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.main{
+  position: relative; top: 200px;
+  height: 250px;
+  width: 250px;
+  background-color: black;
+
+  
+}
+.rectangle {
+  height: 40px;
+  width: 80px;
+  background-color: #555;
+  position: relative; bottom: 500px; 
+}
+.tabular{
+	font-family: 'Orbitron', sans-serif;
+   font-family: 'Oxanium', serif;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+}
+.boxscore {
+  height: 40px;
+  width: 40px;
+  background-color: #555;
+  position: relative; bottom: 540px; left:-70px;
+}
+
+.boxtime{
+   height: 40px;
+  width: 40px;
+  background-color: #555;
+  position: relative; bottom: 580px; left: 70px; 
+}
+
+.light{
+  height:10px;
+  width:10px;
+  border-radius:50%;
+  background-color:red;
+  position: relative; bottom: 570px; 
+}
